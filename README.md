@@ -1,9 +1,6 @@
 # KDMP - memory and process hook in a kernel driver
 This Driver is able to open a handle to CS:GO and later on modify it's memory to show enemys on the radar and also show glow for enemys
 
-## Detectability
-Since this driver uses KDMapper to manipulate a Intel Driver it's basically fully UD by VAC3
-
 ## Starting the driver
 Windows doesn't allow to load an unsigned driver into the kernel, so just use [KDMapper](https://github.com/TheCruZ/kdmapper)
 Compile the project and drag the .sys file onto the KDMapper.exe
